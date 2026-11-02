@@ -10,9 +10,6 @@ You get a list `prices`, where `prices[i]` is the price of a stock on day `i`. Y
 
 Note: you can't sell before you buy. In the first example, buying at 1 and "selling" at 7 isn't allowed, because the 7 came first.
 
-## Beginner-friendly hint
-Walk through the prices one day at a time and keep track of the **cheapest price you've seen so far**. On each day, ask: "If I sold today, having bought at that cheapest price, how much would I make?" Keep the biggest answer.
-
 ## Key concept: sliding window (and "remember the best so far")
 A sliding window is a range of the list, with a left edge and a right edge, that moves forward as you go. Here:
 - the **left** edge is your buy day (the cheapest day so far),
